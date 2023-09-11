@@ -1,0 +1,78 @@
+.value {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    max-width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.value:hover {
+    background-color: rgba(139, 69, 19, 0.5); /* Marron transparent */
+    box-shadow: 0px 8px 16px rgba(52, 79, 216, 0.4); /* Ombre marron */
+}
+
+
+.values-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: linear-gradient(to bottom, #f7f7f7, #dcdcdc);
+}
+
+.value {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    max-width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.value:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    background-color: #f9f9f9;
+    background-color: #31cbd0;
+}
+
+.value img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.value h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.value p {
+    font-size: 16px;
+    color: #666666;
+}
+.btn1{
+    border:2p solid #000;
+    border-radius: 10px;
+    background-color: #31cbd0;
+    margin-left: 490px;
+    padding: 9px;
+}
+.btn1:hover{
+ background-color:#cc2059;
+ font-weight: 500;
+}
+.container2{
+border-radius: 50px;
+    height: 50vh;
+    background-color: #666666;
+}
+img{
+
+    align-items: center;
+}

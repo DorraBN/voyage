@@ -1,0 +1,54 @@
+.menu{
+
+    height: 11vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.menu a :hover{
+    color: #1118ec;
+  
+}
+.search-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-form input[type="text"] {
+    width: 200px;
+    padding: 5px 10px;
+    margin-right: 5px; /* adjust this value to bring the input closer to the button */
+    border-radius: 20px;
+    bordeR:2px solid #00b894;
+  
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .search-form button[type="submit"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .search-form button[type="submit"] i {
+    font-size: 16px;
+  }
+  
+  .search-form button[type="submit"]:hover i {
+    color: #ffc107;
+  }
