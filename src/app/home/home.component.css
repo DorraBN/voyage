@@ -70,9 +70,11 @@
 .container2{
 border-radius: 50px;
     height: 50vh;
-    background-color: #666666;
+    background-color: #cec6c6;
 }
-img{
+.img1{
 
     align-items: center;
+    text-align: center;
+    padding-left: 500px;
 }
