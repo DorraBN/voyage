@@ -4,7 +4,20 @@
  <a href=""><img src="assets/home.png" alt=""> Home</a> 
  <a href="">destination</a>
     <a href="">Hotels</a> 
-    <a href="">contact</a> <form class="search-form" action="#" method="get">
+    <a href="">contact</a><div class="dropdown" data-bs-theme="dark">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonDark" data-bs-toggle="dropdown" aria-expanded="false">
+        Dark dropdown
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonDark">
+        <li><a class="dropdown-item active" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+    </div>
+     <form class="search-form" action="#" method="get">
         <input type="text" name="search" placeholder="Search...">
         <button type="submit"><i class="fa fa-search"></i></button>
       </form>
